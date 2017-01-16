@@ -26,31 +26,31 @@ img{
   /*transform: rotate(45deg);*/
   /*transform: scale(3);*/
   /*transform: skew(20deg,10deg);*/
-  transform: rotateX(200deg);
+  /*transform: rotateX(200deg);*/
 }
 
 .transición{
   width: 100px;
   height: 100px;
-  background: pink;
-  transition:background 2s, delay 3s, height 3s; transform: 3s;
+  background: blue;
+/*  transition:background 2s, delay 3s, height 3s; transform: 3s;*/
 }
 
-.transición:hover{
+/*.transición:hover{
   background-color: yellow;
-  height:200px;
-  transform: rotate(45deg);
+  height:200px;*/
+  /*transform: rotate(45deg);*/
 }
 
-.animación{
+/.animación{
   height: 100px;
   width: 100px;
-  background-color: yellow;
-  animation-name: animación;
+  background-color: yellow;*/
+  /*animation-name: animación;
   animation-duration: 4s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite;*/
 }
-@keyframes animación {
+/*@keyframes animación {
   0% {background-color: blue;}
   25% {background-color: pink;height: 200px;}
   50% {background: purple;}
@@ -59,3 +59,22 @@ img{
   from {background-color: pink;}
   to{background-color: blue;}
 }*/
+
+.cuadro1{
+  height: 200px;
+  width: 200px;
+  background-color: pink;
+}
+
+.cuadro2{
+  height: 200px;
+  width: 200px;
+  background-color: pink;
+}
+
+.cuadro3{
+  height: 200px;
+  width: 200px;
+  background-color: pink;
+  position: relative;
+}
