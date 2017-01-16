@@ -17,3 +17,45 @@ img{
   /*background: linear-gradient(to right, pink,purple,blue);*/
   background: linear-gradient(to bottom left, rgba(255,0,0,.1),rgba(255,0,0,1));
 }
+
+.transformación{
+  width: 100px;
+  height: 100px;
+  background-color:pink;
+  /*transform: translate(500px, 400px);*/
+  /*transform: rotate(45deg);*/
+  /*transform: scale(3);*/
+  /*transform: skew(20deg,10deg);*/
+  transform: rotateX(200deg);
+}
+
+.transición{
+  width: 100px;
+  height: 100px;
+  background: pink;
+  transition:background 2s, delay 3s, height 3s; transform: 3s;
+}
+
+.transición:hover{
+  background-color: yellow;
+  height:200px;
+  transform: rotate(45deg);
+}
+
+.animación{
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  animation-name: animación;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes animación {
+  0% {background-color: blue;}
+  25% {background-color: pink;height: 200px;}
+  50% {background: purple;}
+  100%{background-color: yellow;}
+  }/*{
+  from {background-color: pink;}
+  to{background-color: blue;}
+}*/
